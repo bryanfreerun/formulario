@@ -12,22 +12,32 @@
     
             <h1>·Formulario de contacto·</h1>
 
-            <input type="text" name="Nombre" id="nombre" placeholder="Nombre..." maxlength="15">
-            <br>
-            <input type="email" name="email" id="email" placeholder="Correo..." maxlength="30">
-            <br>
-            <input type="tel" name="tel" id="tel" placeholder="Número de telefono" maxlength="9">
-            <br>
-            <select name="Subject line" id="subject">
-                <option value="subject line">Subject line</option>
-            </select>
-            <br>
-            <textarea name="texto" id="texto" cols="50" rows="10" placeholder="Escribe tu mensaje"></textarea>
-            <br>    
-            <input type="submit" value="Enviar">
+            <div>
+                
+                <input type="text" name="Nombre" id="nombre" class="input" placeholder="Nombre..." maxlength="15" >
+            </div>
+
+            <div>
+                <input type="email" name="email" id="email" class="input" placeholder="Correo..." maxlength="30">
+            </div>
+                
+            <div>
+                <input type="tel" name="tel" id="tel" class="input" placeholder="Número de telefono" maxlength="9">
+            </div>
+
+            <div>
+                <select name="Subject line" id="subject" class="input">
+                    <option value="subject line">Subject line</option>
+                </select>
+            </div>
+
+            <div>
+                <textarea name="texto" id="texto" cols="50" rows="10" placeholder="Escribe tu mensaje" class="input"></textarea>
+            </div>  
+ 
+            <div><input type="submit" value="Enviar" class="input"></div>
         </form>
     </fieldset>
-   </form>
-
+    
 </body>
 </html>
