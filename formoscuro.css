@@ -4,7 +4,10 @@ body{
 }
 h1{
     color: white;
+    text-align: center;;
 }
-.input{
-    background-color: black;
+div{
+    color: beige;
+    display: flex;
+    place-content: center;
 }
