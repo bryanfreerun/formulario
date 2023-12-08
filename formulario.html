@@ -7,9 +7,25 @@
 </head>
 <body>
 
-   <form action="">
     <fieldset>
-        <h1>·Formulario de contacto·</h1>
+        <form action="" >
+    
+            <h1>·Formulario de contacto·</h1>
+
+            <input type="text" name="Nombre" id="nombre" placeholder="Nombre..." maxlength="15">
+            <br>
+            <input type="email" name="email" id="email" placeholder="Correo..." maxlength="30">
+            <br>
+            <input type="tel" name="tel" id="tel" placeholder="Número de telefono" maxlength="9">
+            <br>
+            <select name="Subject line" id="subject">
+                <option value="subject line">Subject line</option>
+            </select>
+            <br>
+            <textarea name="texto" id="texto" cols="50" rows="10" placeholder="Escribe tu mensaje"></textarea>
+            <br>    
+            <input type="submit" value="Enviar">
+        </form>
     </fieldset>
    </form>
 
