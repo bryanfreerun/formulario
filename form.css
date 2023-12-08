@@ -1,3 +1,14 @@
 #oscuro{
     background-color: beige;
 }
+h1{
+    text-align: center;
+}
+div{
+    color: beige;
+    display: flex;
+    place-content: center;
+}
+.input{
+    background-color: beige;
+}
